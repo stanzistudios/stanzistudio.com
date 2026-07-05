@@ -451,6 +451,21 @@
       transition: color 0.3s;
     }
     .footer__social a:hover { color: var(--ink); }
+
+    /* ===== Light panels — navy base alternating with off-white sections ===== */
+    :root { --navy-0: #0B1026; }
+    .statement--panel, .section--panel, .whatwedo, .talent {
+      background: #F4F1EA;
+      --ink: #0B1026;
+      --ink-55: rgba(11, 16, 38, 0.62);
+      --ink-35: rgba(11, 16, 38, 0.45);
+      --line: rgba(11, 16, 38, 0.15);
+      color: var(--ink);
+      border-color: rgba(11, 16, 38, 0.12);
+    }
+    /* fixed nav stays legible over both grounds */
+    .nav { mix-blend-mode: difference; }
+    ::selection { background: #0B1026; color: #F4F1EA; }
   </style>
 </head>
 <body>
