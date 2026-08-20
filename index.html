@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stanzi Studio — Venture Studio, Systems &amp; AI Automation | Miami</title>
-  <meta name="description" content="Miami venture studio. We build businesses, then build the AI systems and automations that run them. Ventures in-house, consulting and AI automation for operators. Founded by Franco Stanzione.">
+  <title>Stanzi Studio — Miami Venture Studio &amp; AI Automation</title>
+  <meta name="description" content="Miami venture studio. We build businesses, then build the AI systems that run them. Ventures in-house, plus consulting for operators. Founded by Franco Stanzione.">
   <link rel="canonical" href="https://stanzistudio.com/">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#0B1026">
@@ -20,6 +20,7 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Stanzi Studio — building the thing that builds the thing.">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Stanzi Studio — Venture Studio, Systems &amp; AI Automation">
@@ -27,46 +28,74 @@
   <meta name="twitter:image" content="https://stanzistudio.com/og.png">
   <meta name="twitter:creator" content="@mrstanzione">
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230B1026'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Helvetica,Arial,sans-serif' font-size='38' font-weight='bold' fill='%23F4F1EA'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "@id": "https://stanzistudio.com/#org",
-    "name": "Stanzi Studio",
-    "url": "https://stanzistudio.com/",
-    "description": "Miami venture studio. Ventures built and managed in-house, plus consulting, systems architecture and AI automation for operators.",
-    "slogan": "Building the thing that builds the thing.",
-    "email": "franco@stanzistudio.com",
-    "founder": {
-      "@type": "Person",
-      "name": "Franco Stanzione",
-      "jobTitle": "Founder",
-      "sameAs": ["https://instagram.com/mrstanzione", "https://x.com/mrstanzione"]
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "addressCountry": "US"
-    },
-    "areaServed": "US",
-    "knowsAbout": [
-      "Venture studio",
-      "Restaurant operations",
-      "Systems architecture",
-      "AI automation",
-      "Workflow automation",
-      "Hospitality consulting",
-      "Brand and growth"
-    ],
-    "makesOffer": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ventures", "description": "We create and launch businesses from zero, in-house." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Systems & Operations", "description": "We architect the machine so the business runs without us." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI & Automation", "description": "We put AI agents and automations on the floor so the operation runs itself and reports back." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brand & Growth", "description": "We build demand and turn operations into leverage." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Software", "description": "We ship the tools that run the operation." } }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://stanzistudio.com/#website",
+        "url": "https://stanzistudio.com/",
+        "name": "Stanzi Studio",
+        "inLanguage": "en-US",
+        "publisher": { "@id": "https://stanzistudio.com/#org" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://stanzistudio.com/#franco",
+        "name": "Franco Stanzione",
+        "jobTitle": "Founder",
+        "worksFor": { "@id": "https://stanzistudio.com/#org" },
+        "email": "franco@stanzistudio.com",
+        "sameAs": ["https://instagram.com/mrstanzione", "https://x.com/mrstanzione"]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://stanzistudio.com/#org",
+        "name": "Stanzi Studio",
+        "url": "https://stanzistudio.com/",
+        "description": "Miami venture studio. Ventures built and managed in-house, plus consulting, systems architecture and AI automation for operators.",
+        "slogan": "Building the thing that builds the thing.",
+        "email": "franco@stanzistudio.com",
+        "logo": "https://stanzistudio.com/icon-512.png",
+        "image": "https://stanzistudio.com/og.png",
+        "sameAs": ["https://instagram.com/mrstanzione", "https://x.com/mrstanzione"],
+        "founder": { "@id": "https://stanzistudio.com/#franco" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Miami",
+          "addressRegion": "FL",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Miami" },
+          { "@type": "State", "name": "Florida" },
+          { "@type": "Country", "name": "United States" }
+        ],
+        "knowsAbout": [
+          "Venture studio", "Restaurant operations", "Systems architecture",
+          "AI automation", "AI agents", "Workflow automation",
+          "Hospitality consulting", "Brand and growth"
+        ],
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ventures", "description": "We create and launch businesses from zero, in-house." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Systems & Operations", "description": "We architect the machine so the business runs without us." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI & Automation", "description": "We put agents and automations on the floor, so the operation runs itself and reports back." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brand & Growth", "description": "We build demand and turn operations into leverage." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Software", "description": "We ship the tools that run the operation." } }
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "New business",
+          "email": "franco@stanzistudio.com",
+          "areaServed": "US",
+          "availableLanguage": ["English", "Spanish"]
+        }
+      }
     ]
   }
   </script>

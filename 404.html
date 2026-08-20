@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not Found — Stanzi Studio</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root { --navy: #0B1026; --ink: #F4F1EA; --ink-55: rgba(244,241,234,.55); --ink-35: rgba(244,241,234,.35); }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100svh; background: var(--navy); color: var(--ink);
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; padding: 4rem clamp(1.5rem, 5vw, 5.5rem);
+      font-family: "Oswald", "Helvetica Neue", sans-serif; -webkit-font-smoothing: antialiased;
+    }
+    h1 {
+      font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 900; font-variation-settings: "wdth" 112;
+      text-transform: uppercase; letter-spacing: -.02em;
+      font-size: clamp(2.6rem, 10vw, 7rem); line-height: .95; text-wrap: balance;
+    }
+    p {
+      margin-top: clamp(1.5rem, 3vh, 2.5rem); font-weight: 300;
+      font-size: clamp(.95rem, 1.4vw, 1.1rem); letter-spacing: .06em;
+      line-height: 1.8; color: var(--ink-55); max-width: 34rem;
+    }
+    a.home {
+      display: inline-block; margin-top: clamp(2.5rem, 6vh, 4rem);
+      font-weight: 300; font-size: clamp(1rem, 2.2vw, 1.5rem);
+      letter-spacing: .18em; text-transform: uppercase;
+      color: var(--ink); text-decoration: none;
+      border-bottom: 1px solid var(--ink-35); padding-bottom: .4rem;
+      transition: border-color .3s;
+    }
+    a.home:hover { border-color: var(--ink); }
+    .foot {
+      position: fixed; bottom: 1.75rem; left: 0; right: 0;
+      font-size: .7rem; font-weight: 300; letter-spacing: .2em;
+      text-transform: uppercase; color: var(--ink-35);
+    }
+  </style>
+</head>
+<body>
+  <h1>This one doesn't run.</h1>
+  <p>The page you're after isn't here. Everything we build and operate is on the main page.</p>
+  <a class="home" href="/">Back to Stanzi Studio &rarr;</a>
+  <div class="foot">Stanzi Studio — Miami, FL</div>
+</body>
+</html>

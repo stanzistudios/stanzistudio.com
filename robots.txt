@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+# AI crawlers — see /llms.txt for a plain-text summary of the studio
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://stanzistudio.com/sitemap.xml
