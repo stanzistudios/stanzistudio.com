@@ -520,24 +520,36 @@
     }
     .footer__social a:hover { color: var(--ink); }
 
-    /* ===== Proof strip — the receipts under What We Do ===== */
+    /* ===== Proof strip — same 5-column grid and rule rhythm as the disciplines above ===== */
     .proof {
       list-style: none;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: clamp(2rem, 4vw, 4rem);
-      margin-top: clamp(3.5rem, 8vh, 6rem);
-      padding-top: clamp(2.5rem, 5vh, 3.5rem);
-      border-top: 1px solid var(--line);
+      margin-top: clamp(4rem, 9vh, 7rem);
     }
-    .proof__fig {
+    .proof__item {
+      border-top: 1px solid var(--line);
+      padding-top: 1.5rem;
+    }
+    .proof__num {
       display: block;
       font-family: var(--font-display);
       font-weight: 900;
       font-variation-settings: "wdth" 112;
-      font-size: clamp(1.6rem, 3.2vw, 2.9rem);
+      font-size: clamp(2.1rem, 3.4vw, 3.1rem);
       line-height: 1;
       letter-spacing: -0.02em;
+    }
+    .proof__unit {
+      display: block;
+      margin-top: 0.7rem;
+      font-family: var(--font-sub);
+      font-weight: 400;
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--ink-35);
     }
     .proof__label {
       display: block;
@@ -547,8 +559,9 @@
       line-height: 1.65;
       color: var(--ink-55);
     }
-    @media (max-width: 900px) { .proof { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 480px) { .proof { grid-template-columns: 1fr; gap: 2rem; } }
+    @media (max-width: 1180px) { .proof { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 900px)  { .proof { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px)  { .proof { grid-template-columns: 1fr; gap: 2rem; } }
 
     /* ===== Track record (closed / pre-studio ventures) ===== */
     .trackrecord {
@@ -750,20 +763,24 @@
 
       <ul class="proof">
         <li class="proof__item reveal">
-          <span class="proof__fig display">6&times; Revenue</span>
+          <span class="proof__num display">6&times;</span>
+          <span class="proof__unit">Revenue</span>
           <span class="proof__label">Weekly, at one location, inside twelve months of systems work.</span>
         </li>
         <li class="proof__item reveal">
-          <span class="proof__fig display">11 Tools</span>
+          <span class="proof__num display">11</span>
+          <span class="proof__unit">Tools</span>
           <span class="proof__label">Live on our own AI gateway, so an operator's assistant can read the business directly.</span>
         </li>
         <li class="proof__item reveal">
-          <span class="proof__fig display">5 Automations</span>
+          <span class="proof__num display">5</span>
+          <span class="proof__unit">Automations</span>
           <span class="proof__label">Running invoicing, tax and reporting across two restaurants, unattended.</span>
         </li>
         <li class="proof__item reveal">
-          <span class="proof__fig display">14 Years</span>
-          <span class="proof__label">Opening, operating and fixing hospitality businesses — before we automated any of it.</span>
+          <span class="proof__num display">14</span>
+          <span class="proof__unit">Years</span>
+          <span class="proof__label">Opening, operating and fixing hospitality businesses &mdash; before we automated any of it.</span>
         </li>
       </ul>
     </section>
@@ -830,7 +847,7 @@
       <div class="trackrecord reveal">
         <p class="trackrecord__label">Track Record</p>
         <p class="trackrecord__list">Stanzione&nbsp;&rsquo;87 &middot; Ash&nbsp;Pizza &middot; Thoroughbred&nbsp;Pizza</p>
-        <p class="trackrecord__note">Concepts opened, awarded and operated before the studio — including an award-winning Neapolitan room run for eleven years, and a concept expanded to two locations in under three.</p>
+        <p class="trackrecord__note">Opened, awarded and operated before Stanzi Studio existed — an award-winning Neapolitan pizzeria run for eleven years, and a concept grown from one location to two in under three years.</p>
       </div>
     </section>
 
