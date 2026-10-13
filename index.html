@@ -446,6 +446,52 @@
     @media (max-width: 640px) {
       .client { grid-template-columns: 1fr; gap: 0.4rem; }
     }
+    .case {
+      display: block;
+      margin-top: clamp(4rem, 10vh, 7rem);
+      padding: clamp(2.5rem, 6vh, 4rem) 0;
+      border-top: 1px solid var(--line-2);
+      border-bottom: 1px solid var(--line-2);
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .case__label {
+      font-family: var(--font-sub);
+      font-weight: 400;
+      font-size: 0.72rem;
+      letter-spacing: 0.45em;
+      text-transform: uppercase;
+      color: var(--ink-35);
+    }
+    .case__line {
+      margin-top: 1.25rem;
+      font-size: clamp(1.9rem, 5.5vw, 5rem);
+      line-height: 0.98;
+      max-width: 14em;
+      text-wrap: balance;
+    }
+    .case__sub {
+      margin-top: 1.5rem;
+      max-width: 40rem;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: var(--ink-55);
+    }
+    .case__more {
+      display: inline-block;
+      margin-top: 2rem;
+      font-family: var(--font-sub);
+      font-weight: 300;
+      font-size: 0.85rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--ink-70);
+      padding-bottom: 0.3rem;
+      background: linear-gradient(var(--ink), var(--ink)) no-repeat left bottom / 100% 1px;
+      transition: color 0.3s, background-size 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .case:hover .case__more { color: var(--ink); background-size: 0% 1px; }
 
     /* ===== Talent pool ===== */
     .talent {
@@ -741,6 +787,7 @@
     <nav class="nav__links">
       <a href="#ventures">Ventures</a>
       <a href="#work">Work</a>
+      <a href="/catering/">Case Study</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -911,6 +958,13 @@
           <span class="client__scope">Art Basel &middot; Hong Kong Tourism Board &middot; SCAD &middot; Emilio Pucci &middot; Mutto Furniture &middot; Miami Beach Botanical Garden — event logistics, vendor and equipment management, art direction, and the on-site operation itself.</span>
         </li>
       </ul>
+
+      <a class="case reveal" href="/catering/">
+        <p class="case__label">Case Study &middot; Catering</p>
+        <h3 class="case__line display">Catering up more than 1,800% in four&nbsp;months.</h3>
+        <p class="case__sub">Catering at our own restaurant, June to September 2026. Five changes, made in order, with the results and the one thing we'd skip next time.</p>
+        <span class="case__more">Read the case study</span>
+      </a>
     </section>
 
     <!-- ===== ABOUT / LOCATION ===== -->
