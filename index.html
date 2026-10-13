@@ -492,6 +492,22 @@
       transition: color 0.3s, background-size 0.4s cubic-bezier(0.22, 1, 0.36, 1);
     }
     .case:hover .case__more { color: var(--ink); background-size: 0% 1px; }
+    .prices { padding: clamp(2.5rem, 6vh, 4rem) 0; border-bottom: 1px solid var(--line-2); }
+    .prices__list { list-style: none; margin-top: 2rem; padding: 0; max-width: 56rem; }
+    .prices__row {
+      display: grid; grid-template-columns: 11rem 1fr auto; gap: 1.5rem; align-items: baseline;
+      padding: 0.9rem 0; border-top: 1px solid var(--line);
+    }
+    .prices__name { font-family: var(--font-sub); font-weight: 400; font-size: 0.95rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); }
+    .prices__what { font-family: var(--font-body); font-size: 0.92rem; color: var(--ink-55); }
+    .prices__cost { font-family: var(--font-sub); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.04em; color: var(--ink-70); white-space: nowrap; text-align: right; }
+    .prices__note { margin-top: 1.25rem; font-family: var(--font-body); font-size: 0.85rem; color: var(--ink-35); max-width: 40rem; }
+    .prices .case__more { color: var(--ink-70); text-decoration: none; }
+    .prices .case__more:hover { color: var(--ink); background-size: 0% 1px; }
+    @media (max-width: 640px) {
+      .prices__row { grid-template-columns: 1fr auto; gap: 0.3rem 1rem; }
+      .prices__what { grid-column: 1 / -1; grid-row: 2; }
+    }
 
     /* ===== Talent pool ===== */
     .talent {
@@ -788,6 +804,7 @@
       <a href="#ventures">Ventures</a>
       <a href="#work">Work</a>
       <a href="/catering/">Case Study</a>
+      <a href="/menu/">Menu</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -965,6 +982,22 @@
         <p class="case__sub">Catering at our own restaurant, June to September 2026. Five changes, made in order, with the results and the one thing we'd skip next time.</p>
         <span class="case__more">Read the case study</span>
       </a>
+
+      <div class="prices reveal" id="menu">
+        <p class="case__label">The Menu &middot; For restaurants that cater</p>
+        <h3 class="case__line display">Seven services, fixed&nbsp;prices.</h3>
+        <ul class="prices__list">
+          <li class="prices__row"><span class="prices__name">Full House</span><span class="prices__what">Catering search pages that rank</span><span class="prices__cost">$750/mo</span></li>
+          <li class="prices__row"><span class="prices__name">The Pass</span><span class="prices__what">Every catering inquiry answered in minutes</span><span class="prices__cost">$500/mo</span></li>
+          <li class="prices__row"><span class="prices__name">Front of House</span><span class="prices__what">Every review answered, the bad ones escalated</span><span class="prices__cost">$200/mo</span></li>
+          <li class="prices__row"><span class="prices__name">The Close</span><span class="prices__what">Yesterday's P&amp;L in your inbox by 7am</span><span class="prices__cost">$400/mo</span></li>
+          <li class="prices__row"><span class="prices__name">Word of Mouth</span><span class="prices__what">Recommended by ChatGPT, Gemini and Perplexity</span><span class="prices__cost">$1,000/mo</span></li>
+          <li class="prices__row"><span class="prices__name">Off the Menu</span><span class="prices__what">One automation, built to order</span><span class="prices__cost">$2,500 once</span></li>
+          <li class="prices__row"><span class="prices__name">Full Service</span><span class="prices__what">All of it, for groups and caterers</span><span class="prices__cost">$2,000/mo</span></li>
+        </ul>
+        <p class="prices__note">Prices are per location, plus a one-time setup from $750. Full Service covers the whole group. Month to month, with 30 days' notice to leave.</p>
+        <a class="case__more" href="/menu/">See the full menu</a>
+      </div>
     </section>
 
     <!-- ===== ABOUT / LOCATION ===== -->
