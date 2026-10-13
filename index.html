@@ -163,7 +163,29 @@
    },
    "hasOfferCatalog": {
     "@id": "https://stanzistudio.com/menu/#catalog"
-   }
+   },
+   "subOrganization": [
+    {
+     "@type": "Organization",
+     "@id": "https://opstable.io/#org",
+     "name": "Opstable",
+     "url": "https://opstable.io/",
+     "description": "Restaurant workforce management software."
+    },
+    {
+     "@type": "Restaurant",
+     "@id": "https://stanzionepizza.com/#restaurant",
+     "name": "Stanzione Italian Specialties",
+     "url": "https://stanzionepizza.com/",
+     "servesCuisine": "Neapolitan pizza",
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Miami",
+      "addressRegion": "FL",
+      "addressCountry": "US"
+     }
+    }
+   ]
   }
  ]
 }
@@ -468,6 +490,15 @@
       transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     }
     .venture:hover .venture__name { transform: translateX(0.15em); }
+    .venture__link, .client__link { color: inherit; text-decoration: none; }
+    .venture__link::after, .client__link::after {
+      content: "\2197"; display: inline-block; margin-left: 0.25em;
+      font-size: 0.4em; vertical-align: super; color: var(--ink-55);
+      transition: color 0.3s, transform 0.3s;
+    }
+    .client__link::after { font-size: 0.7em; }
+    .venture__link:hover::after, .client__link:hover::after,
+    .venture__link:focus-visible::after, .client__link:focus-visible::after { color: var(--ink); transform: translate(0.1em, -0.1em); }
     .venture__desc {
       margin-top: 1rem;
       font-family: var(--font-sub);
@@ -989,11 +1020,11 @@
 
       <ul class="ventures">
         <li class="venture reveal">
-          <h3 class="venture__name display">Stanzione Italian Specialties</h3>
+          <h3 class="venture__name display"><a class="venture__link" href="https://stanzionepizza.com" target="_blank" rel="noopener">Stanzione Italian Specialties</a></h3>
           <p class="venture__desc">Two locations plus catering — named among the top 50 pizzerias in the US</p>
         </li>
         <li class="venture reveal">
-          <h3 class="venture__name display">Opstable</h3>
+          <h3 class="venture__name display"><a class="venture__link" href="https://opstable.io" target="_blank" rel="noopener">Opstable</a></h3>
           <p class="venture__desc">Restaurant workforce SaaS, with an AI gateway operators' assistants can call</p>
         </li>
         <li class="venture reveal">
@@ -1024,7 +1055,7 @@
           <span class="client__scope">Concept, brand and construction through team training and operational systems — scaled to multi-unit, founder exited.</span>
         </li>
         <li class="client reveal">
-          <span class="client__name">Brightline</span>
+          <span class="client__name"><a class="client__link" href="https://www.gobrightline.com" target="_blank" rel="noopener">Brightline</a></span>
           <span class="client__scope">Hospitality operating partnership — venue operations inside a national rail brand.</span>
         </li>
         <li class="client reveal">
