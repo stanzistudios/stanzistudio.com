@@ -411,6 +411,42 @@
     },
     {
      "@type": "Offer",
+     "price": 5000,
+     "priceCurrency": "USD",
+     "priceSpecification": [
+      {
+       "@type": "UnitPriceSpecification",
+       "name": "Build",
+       "price": 5000,
+       "priceCurrency": "USD"
+      },
+      {
+       "@type": "UnitPriceSpecification",
+       "name": "Monthly per location",
+       "price": 500,
+       "priceCurrency": "USD",
+       "unitCode": "MON"
+      }
+     ],
+     "itemOffered": {
+      "@type": "Service",
+      "name": "The Walk-In",
+      "description": "Your vendor invoices, built into one system. Every delivery, every line, every price.",
+      "provider": {
+       "@id": "https://stanzistudio.com/#org"
+      },
+      "areaServed": {
+       "@type": "City",
+       "name": "Miami"
+      },
+      "audience": {
+       "@type": "BusinessAudience",
+       "name": "Restaurants and restaurant groups"
+      }
+     }
+    },
+    {
+     "@type": "Offer",
      "price": 7500,
      "priceCurrency": "USD",
      "priceSpecification": [
@@ -557,7 +593,7 @@
 <section id="menu">
   <div class="wrap">
     <p class="eyebrow">The Menu</p>
-    <h2 class="display section__head">Six plates and one tasting menu.</h2>
+    <h2 class="display section__head">Seven plates and one tasting menu.</h2>
     <p class="section__lede">Order one or stack a few. Every price is fixed and setup takes about ten days. After that it's month to month.</p>
 
     <div class="menu">
@@ -678,12 +714,33 @@
             <span class="dish__tag">With Full House: $3,000 setup for both</span>
           </div>
         </article>
+        <article class="dish reveal">
+          <div class="dish__idx">07</div>
+          <div>
+            <div class="dish__line">
+              <h3 class="display dish__name">The Walk-In</h3>
+              <span class="dish__dots"></span>
+              <p class="dish__price">$5,000 + $500/mo<small>Build + per location</small></p>
+            </div>
+            <p class="dish__desc">Your vendor invoices, built into one system. Every delivery, every line, every price.</p>
+            <p class="dish__body">We build you a receiving desk. Every vendor emails invoices to one address, and your team texts a photo of anything on paper. Each invoice is read line by line and filed by item, so you can see what chicken, cheese and boxes cost you this week and every week before it. Once a month it is matched to each vendor's statement, and any price change or missing credit comes to you with the invoice attached. Text it a question and it answers from your own invoices. It runs next to MarginEdge or xtraCHEF, or on its own.</p>
+            <ul class="dish__list">
+              <li>One invoice address for every vendor</li>
+              <li>Paper invoices sent as a text photo</li>
+              <li>Every line saved: item, quantity, unit price</li>
+              <li>Matched to vendor statements every month</li>
+              <li>Price changes and missing credits flagged, invoice attached</li>
+              <li>Ask it by text, it answers from your invoices</li>
+            </ul>
+            <span class="dish__tag">Each added location: $1,500 build</span>
+          </div>
+        </article>
       </div>
 
       <div class="menu__group">
         <p class="eyebrow">Tasting menu &middot; For groups and caterers</p>
         <article class="dish reveal">
-          <div class="dish__idx">07</div>
+          <div class="dish__idx">08</div>
           <div>
             <div class="dish__line">
               <h3 class="display dish__name">Full Service</h3>
