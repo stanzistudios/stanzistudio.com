@@ -310,13 +310,12 @@
     },
     {
      "@type": "Offer",
-     "price": 2500,
      "priceCurrency": "USD",
      "priceSpecification": [
       {
-       "@type": "UnitPriceSpecification",
-       "name": "One time",
-       "price": 2500,
+       "@type": "PriceSpecification",
+       "name": "One time, quoted after a 15-min call",
+       "minPrice": 2500,
        "priceCurrency": "USD"
       }
      ],
@@ -668,7 +667,7 @@
             <div class="dish__line">
               <h3 class="display dish__name">Off the Menu</h3>
               <span class="dish__dots"></span>
-              <p class="dish__price">$2,500<small>One time</small></p>
+              <p class="dish__price">From $2,500<small>Quoted after a 15-min call</small></p>
             </div>
             <p class="dish__desc">One automation, built to order. The task you hate doing every week.</p>
             <p class="dish__body">Catering follow-ups, a weekly sales report, invoice filing, prep lists from your sales. Tell us the job on a 15-minute call. We quote it fixed, build it in ten days and hand it over documented.</p>
