@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catering Inquiry Automation for Caterers | Stanzi Studio</title>
+<meta name="description" content="Catering inquiry automation for caterers, restaurants and venues: every lead answered in minutes, quotes drafted from your price list, hard cases held for you.">
+<meta name="theme-color" content="#0B1026">
+<link rel="canonical" href="https://stanzistudio.com/catering-inquiry-automation/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Stanzi Studio">
+<meta property="og:url" content="https://stanzistudio.com/catering-inquiry-automation/">
+<meta property="og:title" content="Catering Inquiry Automation · Stanzi Studio">
+<meta property="og:description" content="One desk answers every catering inquiry in minutes, drafts the quote from your price list and holds the hard cases for you.">
+<meta property="og:image" content="https://stanzistudio.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Oswald:wght@300;400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-0:#05070F; --navy-1:#0A0E1C; --ink:#F4F1EA;
+    --ink-70:rgba(244,241,234,.70); --ink-55:rgba(244,241,234,.55); --ink-35:rgba(244,241,234,.35);
+    --line:rgba(244,241,234,.10); --line-2:rgba(244,241,234,.22);
+    --font-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+    --font-sub:"Oswald","Helvetica Neue",sans-serif;
+    --font-body:"Inter",-apple-system,sans-serif;
+    --pad:clamp(1.5rem,5vw,5.5rem);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--navy-0);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--ink);color:var(--navy-0)}
+  a{color:inherit}
+  .display{font-family:var(--font-display);font-weight:900;font-variation-settings:"wdth" 112;letter-spacing:-.02em;text-transform:uppercase;line-height:.95}
+  .eyebrow{font-family:var(--font-sub);font-weight:400;font-size:.72rem;letter-spacing:.45em;text-transform:uppercase;color:var(--ink-35);margin-bottom:1.4rem}
+  .sub{font-family:var(--font-sub);font-weight:300;color:var(--ink-55);letter-spacing:.04em}
+
+  nav{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.5rem var(--pad);border-bottom:1px solid var(--line)}
+  nav .brand{font-family:var(--font-sub);font-weight:500;letter-spacing:.3em;text-transform:uppercase;font-size:.85rem;text-decoration:none}
+  nav .cta{font-family:var(--font-sub);font-size:.78rem;letter-spacing:.25em;text-transform:uppercase;color:var(--ink-55);text-decoration:none;text-align:right}
+  nav .cta:hover{color:var(--ink)}
+
+  section{padding:6.5rem var(--pad);border-top:1px solid var(--line)}
+  section.panel{background:var(--navy-1)}
+  .wrap{max-width:1120px;margin:0 auto}
+
+  .hero{padding-top:7rem;border-top:0}
+  .hero h1{font-size:clamp(2rem,7.5vw,6.2rem);max-width:15ch;overflow-wrap:break-word}
+  .hero p{max-width:58ch;margin-top:2rem;color:var(--ink-70);font-size:1.08rem}
+  .hero .sub{margin-top:1.2rem;font-size:1rem}
+
+  .section__head{font-size:clamp(1.55rem,4.4vw,3.4rem);max-width:20ch;overflow-wrap:break-word}
+  .section__lede{max-width:60ch;margin-top:1.2rem;color:var(--ink-70)}
+
+  /* proof */
+  .proof{display:grid;grid-template-columns:repeat(3,1fr);margin-top:3.5rem;border-top:1px solid var(--line)}
+  .proof__cell{padding:2rem 2rem 2rem 0;border-right:1px solid var(--line)}
+  .proof__cell + .proof__cell{padding-left:2rem}
+  .proof__cell:last-child{border-right:0}
+  .proof__num{font-size:clamp(1.9rem,4.5vw,3.4rem)}
+  .proof__label{margin-top:.8rem;color:var(--ink-70);font-size:.95rem}
+  .proof__src{margin-top:.6rem;font-family:var(--font-sub);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-35)}
+
+  /* agents, set like the menu */
+  .menu{margin-top:3.5rem}
+  .dish{padding:2.6rem 0;border-top:1px solid var(--line);display:grid;grid-template-columns:4.5rem 1fr;gap:0 1.5rem}
+  .dish:last-child{border-bottom:1px solid var(--line)}
+  .dish__idx{font-family:var(--font-sub);color:var(--ink-35);font-size:.85rem;letter-spacing:.2em;padding-top:.5rem}
+  .dish__line{display:flex;align-items:baseline;gap:1rem}
+  .dish__name{font-size:clamp(1.5rem,3.4vw,2.4rem);white-space:nowrap}
+  .dish__dots{flex:1;border-bottom:1px dotted var(--line-2);transform:translateY(-.35em);min-width:1rem}
+  .dish__price{font-family:var(--font-sub);font-weight:400;font-size:1.05rem;letter-spacing:.06em;white-space:nowrap;text-align:right}
+  .dish__price small{display:block;color:var(--ink-35);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase}
+  .dish__desc{margin-top:.5rem;font-family:var(--font-sub);font-weight:300;color:var(--ink-55);font-size:1.02rem;letter-spacing:.03em}
+  .dish__body{margin-top:1.1rem;max-width:64ch;color:var(--ink-70)}
+  .dish__tag{display:inline-block;margin-top:1.1rem;font-family:var(--font-sub);font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;color:var(--ink-55)}
+  a.dish__tag{text-decoration:none;border-bottom:1px solid var(--line-2);padding-bottom:.2rem}
+  a.dish__tag:hover{color:var(--ink);border-color:var(--ink)}
+
+  /* service steps */
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);margin-top:3.5rem;border-top:1px solid var(--line)}
+  .step{padding:2rem 1.5rem 0 0}
+  .step + .step{padding-left:1.5rem;border-left:1px solid var(--line)}
+  .step__idx{font-family:var(--font-sub);color:var(--ink-35);letter-spacing:.2em;font-size:.8rem}
+  .step__name{font-size:1.25rem;margin-top:.8rem}
+  .step__desc{margin-top:.7rem;color:var(--ink-70);font-size:.95rem}
+
+  /* yes / no */
+  .group{margin-top:3rem}
+  .group .eyebrow{margin-bottom:0}
+  .marks{list-style:none;margin-top:3rem;max-width:820px}
+  .group .marks{margin-top:1rem}
+  .marks li{padding:1rem 0 1rem 2.2rem;border-top:1px solid var(--line);position:relative;color:var(--ink-70)}
+  .marks li:last-child{border-bottom:1px solid var(--line)}
+  .mark--no::before{content:"\2715";position:absolute;left:0;top:1rem;color:var(--ink-35);font-size:.9rem}
+  .mark--yes::before{content:"\2713";position:absolute;left:0;top:1rem;color:var(--ink);font-size:.9rem}
+  .marks strong{color:var(--ink);font-weight:500}
+
+  /* price table */
+  .table{width:100%;border-collapse:collapse;margin-top:2.5rem;max-width:860px}
+  .table th{font-family:var(--font-sub);font-weight:400;font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;color:var(--ink-35);text-align:left;padding:.7rem 0;border-bottom:1px solid var(--line)}
+  .table td{padding:.9rem 1rem .9rem 0;border-bottom:1px solid var(--line);color:var(--ink-70);vertical-align:top}
+  .table td:last-child,.table th:last-child{padding-right:0}
+  .table td.num{font-family:var(--font-sub);color:var(--ink);letter-spacing:.05em;text-align:right;white-space:nowrap}
+  .table th.num{text-align:right}
+  .table td small{display:block;font-family:var(--font-sub);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-35);white-space:normal}
+
+  /* numbered rows */
+  .timeline{list-style:none;margin-top:3rem;max-width:860px}
+  .timeline li{display:grid;grid-template-columns:10rem 1fr;gap:1.5rem;padding:1.3rem 0;border-top:1px solid var(--line)}
+  .timeline li:last-child{border-bottom:1px solid var(--line)}
+  .timeline .when{font-family:var(--font-sub);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-35);padding-top:.2rem}
+  .timeline .what{color:var(--ink-70)}
+  .timeline .what strong{color:var(--ink);font-weight:500}
+  .section__lede + .section__lede{margin-top:1rem}
+
+  /* faq */
+  .faq{margin-top:3rem;max-width:860px}
+  .faq__item{padding:1.6rem 0;border-top:1px solid var(--line)}
+  .faq__item:last-child{border-bottom:1px solid var(--line)}
+  .faq__q{font-family:var(--font-sub);font-weight:400;font-size:1.1rem;letter-spacing:.03em}
+  .faq__a{margin-top:.6rem;color:var(--ink-70)}
+
+  /* close */
+  .close h2{font-size:clamp(1.8rem,6vw,4.8rem);max-width:16ch;overflow-wrap:break-word}
+  .close p{margin-top:1.6rem;max-width:56ch;color:var(--ink-70)}
+  .btn{display:inline-block;margin-top:2.4rem;padding:1.05rem 1.9rem;border:1px solid var(--ink);font-family:var(--font-sub);font-size:.85rem;letter-spacing:.3em;text-transform:uppercase;text-decoration:none;transition:background .2s,color .2s}
+  .btn:hover{background:var(--ink);color:var(--navy-0)}
+  .fine{margin-top:1.4rem;font-family:var(--font-sub);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-35)}
+
+  footer{padding:2.5rem var(--pad);border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;font-family:var(--font-sub);font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-35)}
+
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.is-in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+  @media screen and (max-width:820px){
+    .proof,.steps{grid-template-columns:1fr}
+    .proof__cell,.proof__cell + .proof__cell{padding:1.6rem 0;border-right:0;border-bottom:1px solid var(--line)}
+    .step,.step + .step{padding:1.6rem 0;border-left:0;border-bottom:1px solid var(--line)}
+    .dish{grid-template-columns:1fr}
+    .dish__idx{padding:0 0 .6rem}
+    .dish__line{flex-wrap:wrap}
+    .dish__name{white-space:normal}
+    .dish__dots{display:none}
+    .dish__price{text-align:left;width:100%}
+    section{padding:4.5rem var(--pad)}
+    .table th:nth-child(2),.table td:nth-child(2){padding-right:.75rem}
+    .timeline li{grid-template-columns:1fr;gap:.3rem}
+  }
+  @media print{
+    @page{size:Letter;margin:0}
+    body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    section{padding:.62in;break-inside:avoid}
+    .dish,.faq__item,.step{break-inside:avoid}
+    h2,h3{page-break-after:avoid}
+    .reveal{opacity:1;transform:none}
+    nav .cta{display:none}
+  }
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebPage",
+   "@id": "https://stanzistudio.com/catering-inquiry-automation/#webpage",
+   "url": "https://stanzistudio.com/catering-inquiry-automation/",
+   "name": "Catering Inquiry Automation for Caterers",
+   "description": "Catering inquiry automation for caterers, restaurants and venues: every lead answered in minutes, quotes drafted from your price list, hard cases held for you.",
+   "isPartOf": {
+    "@id": "https://stanzistudio.com/#website"
+   },
+   "about": {
+    "@id": "https://stanzistudio.com/catering-inquiry-automation/#service"
+   },
+   "inLanguage": "en-US"
+  },
+  {
+   "@type": "Service",
+   "@id": "https://stanzistudio.com/catering-inquiry-automation/#service",
+   "name": "Catering inquiry automation (The Pass)",
+   "serviceType": "Catering inquiry automation",
+   "description": "An AI agent that answers every catering inquiry from the caterer's own inbox within minutes, asks for the date, headcount and budget, drafts the quote from the caterer's price list for the owner to approve, follows up on quiet leads and adds booked events to the calendar.",
+   "url": "https://stanzistudio.com/catering-inquiry-automation/",
+   "provider": {
+    "@id": "https://stanzistudio.com/#org"
+   },
+   "areaServed": [
+    {
+     "@type": "AdministrativeArea",
+     "name": "Miami-Dade County, FL"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Broward County, FL"
+    },
+    {
+     "@type": "Place",
+     "name": "South Florida"
+    },
+    {
+     "@type": "Country",
+     "name": "United States"
+    }
+   ],
+   "audience": {
+    "@type": "BusinessAudience",
+    "name": "Caterers, restaurants that cater and event venues"
+   },
+   "availableLanguage": [
+    "English",
+    "Spanish"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": 1500,
+    "priceCurrency": "USD",
+    "url": "https://stanzistudio.com/menu/",
+    "priceSpecification": [
+     {
+      "@type": "UnitPriceSpecification",
+      "name": "Setup",
+      "price": 1500,
+      "priceCurrency": "USD"
+     },
+     {
+      "@type": "UnitPriceSpecification",
+      "name": "Monthly",
+      "price": 500,
+      "priceCurrency": "USD",
+      "unitCode": "MON"
+     }
+    ]
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Stanzi Studio",
+     "item": "https://stanzistudio.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "AI agents for restaurants",
+     "item": "https://stanzistudio.com/ai-agents-for-restaurants/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Catering inquiry automation",
+     "item": "https://stanzistudio.com/catering-inquiry-automation/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What is catering inquiry automation?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "An agent that handles the first part of every catering lead for you: the reply, the questions, the draft quote and the follow-up. You approve the quote. It does the typing and the chasing."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Will it send a quote without my approval?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Every quote and price comes to you first. Nothing with a dollar sign goes out until you approve it."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can it quote from my own price list?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. We load your packages, per-person prices and minimums. If a request doesn't fit the list, the desk holds it for you instead of guessing."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it work for caterers and event venues, or only restaurants?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Both. Any business that gets catering inquiries by email or web form can use it. Full Service is built for dedicated caterers, event venues and groups with three or more locations."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it answer in Spanish?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. It replies in English or Spanish, matching the person who wrote in."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How much does catering inquiry automation cost?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "$1,500 to set up and $500 a month. Add Full House catering search pages and setup is $3,000 for both."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How fast can it go live?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "About ten days, and about an hour of your time. If it isn't live in 14 days, your first month is free."
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="/">Stanzi Studio</a>
+  <a class="cta" href="#order">Book a 15-min call &rarr;</a>
+</nav>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Catering inquiry automation &middot; For caterers, restaurants and venues</p>
+    <h1 class="display">One desk answers every catering inquiry in minutes.</h1>
+    <p>Catering inquiry automation is an AI agent that answers every catering lead from your own inbox within minutes. It asks for the date, headcount and budget, drafts the quote from your price list for you to approve, follows up on quiet leads and puts booked events on your calendar. Stanzi Studio sets it up in about ten days.</p>
+    <p class="sub">We don't advise. We operate.</p>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="wrap">
+    <p class="eyebrow">The problem</p>
+    <h2 class="display section__head">One rule of catering: the job goes to whoever answers first.</h2>
+    <p class="section__lede">Someone planning an office lunch or a rehearsal dinner sends the same request to several places. They book whoever comes back first with real answers. At our own restaurant, the leads we closed were the ones that got a real reply the same day.</p>
+    <p class="section__lede">A form that sits in a shared inbox over the weekend is a job handed to someone else.</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <p class="eyebrow">How it works</p>
+    <h2 class="display section__head">Five steps from inquiry to calendar.</h2>
+    <ol class="timeline">
+      <li><span class="when">01</span><span class="what"><strong>Reply in minutes.</strong> From your own email address, in English or Spanish, at 11pm on a Sunday the same as at noon on a Tuesday.</span></li>
+      <li><span class="when">02</span><span class="what"><strong>Ask what the quote needs.</strong> Date, headcount and budget up front, plus anything your prices depend on, like a delivery address or pickup.</span></li>
+      <li><span class="when">03</span><span class="what"><strong>Draft the quote from your price list.</strong> Your packages, your per-person prices, your minimums. If a request doesn't fit the list, the desk doesn't guess. It holds the lead for you.</span></li>
+      <li><span class="when">04</span><span class="what"><strong>Wait for your approval.</strong> The draft comes to you first. Change what you want, approve it, and it goes out.</span></li>
+      <li><span class="when">05</span><span class="what"><strong>Follow up, then book.</strong> Leads that go quiet get a follow-up. When a job books, it lands on your calendar.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="wrap">
+    <p class="eyebrow">What comes to you</p>
+    <h2 class="display section__head">Four kinds of inquiry always come to you.</h2>
+    <p class="section__lede">The desk does the typing and the chasing. Judgment calls stay with the owner.</p>
+    <ul class="marks">
+      <li class="mark--yes"><strong>Every quote.</strong> Drafted for you and sent only after you approve it.</li>
+      <li class="mark--yes"><strong>Anything off your price list.</strong> A custom menu, a date you're closed, or a headcount above the limit you set.</li>
+      <li class="mark--yes"><strong>Money.</strong> Deposits, refunds, discounts and payment terms.</li>
+      <li class="mark--yes"><strong>Complaints, contracts and anything legal.</strong> An unhappy client, a contract to sign, or anyone mentioning a lawyer or the press.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Setup</p>
+    <h2 class="display section__head">Three things you give us on day one.</h2>
+    <ol class="timeline">
+      <li><span class="when">01</span><span class="what"><strong>Your catering price list.</strong> A PDF is fine. We turn it into rules the desk can read, and you check them before anything goes live.</span></li>
+      <li><span class="when">02</span><span class="what"><strong>Access to the inbox your inquiries land in.</strong> You give us a login and take it back whenever you like. Your website and your form stay where they are.</span></li>
+      <li><span class="when">03</span><span class="what"><strong>Your rules.</strong> How much notice you need, the biggest event you'll take without a call, where you deliver, and what you always want to see first.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="panel" id="cost">
+  <div class="wrap">
+    <p class="eyebrow">What it costs</p>
+    <h2 class="display section__head">$1,500 to set up. $500 a month.</h2>
+    <p class="section__lede">That's The Pass on <a href="/menu/">our menu</a>. After setup it's month to month, with 30 days' notice to leave. It's live in 14 days or your first month is free.</p>
+    <ol class="timeline">
+      <li><span class="when">$3,000 setup</span><span class="what"><strong>With Full House.</strong> Catering search pages that bring in more inquiries for the desk to answer. Setup for both is $3,000.</span></li>
+      <li><span class="when">$7,500 + $2,000/mo</span><span class="what"><strong>Full Service.</strong> For dedicated caterers, event venues and groups with three or more locations. The catering pipeline runs across every location, with one screen that shows all of it.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Where it comes from</p>
+    <h2 class="display section__head">Built for our own restaurant's catering first.</h2>
+    <p class="section__lede">We operate a two-location pizzeria in Miami. Its catering inquiries get a reply drafted within hours, quiet leads get a nudge and paid jobs land on the calendar on their own. Monthly catering sales there grew more than 1,800% from June to September 2026. <a href="/catering/">Read the case study</a>.</p>
+    <p class="section__lede">One honest note from that work: the desk doesn't create demand. Search pages did most of that lift. If nobody finds you, there's nothing to answer, which is why the desk pairs well with Full House.</p>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="wrap">
+    <p class="eyebrow">What this does not include</p>
+    <h2 class="display section__head">Four things the desk won't do.</h2>
+    <ul class="marks">
+      <li class="mark--no"><strong>Take payment.</strong> Deposits and invoices stay with you and your POS.</li>
+      <li class="mark--no"><strong>Make up a dish or a price.</strong> It only quotes what's on your list.</li>
+      <li class="mark--no"><strong>Replace your website or your form.</strong> It works from the inbox you already have.</li>
+      <li class="mark--no"><strong>Lock you in.</strong> Setup is paid once. Monthly is month to month.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow">The exit</p>
+    <h2 class="display section__head">In plain English, and easy to leave.</h2>
+    <ul class="marks">
+      <li class="mark--yes"><strong>You own the inbox and the calendar.</strong> We get access, never ownership.</li>
+      <li class="mark--yes"><strong>You keep the rules we wrote.</strong> Your price list, in a form any person or tool can use.</li>
+      <li class="mark--yes"><strong>30 days' notice.</strong> No cancellation fee and no awkward call.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="panel" id="faq">
+  <div class="wrap">
+    <p class="eyebrow">Questions</p>
+    <h2 class="display section__head">Seven things caterers ask first.</h2>
+    <div class="faq">
+      <div class="faq__item">
+        <h3 class="faq__q">What is catering inquiry automation?</h3>
+        <p class="faq__a">An agent that handles the first part of every catering lead for you: the reply, the questions, the draft quote and the follow-up. You approve the quote. It does the typing and the chasing.</p>
+      </div>
+      <div class="faq__item">
+        <h3 class="faq__q">Will it send a quote without my approval?</h3>
+        <p class="faq__a">No. Every quote and price comes to you first. Nothing with a dollar sign goes out until you approve it.</p>
+      </div>
+      <div class="faq__item">
+        <h3 class="faq__q">Can it quote from my own price list?</h3>
+        <p class="faq__a">Yes. We load your packages, per-person prices and minimums. If a request doesn't fit the list, the desk holds it for you instead of guessing.</p>
+      </div>
+      <div class="faq__item">
+        <h3 class="faq__q">Does it work for caterers and event venues, or only restaurants?</h3>
+        <p class="faq__a">Both. Any business that gets catering inquiries by email or web form can use it. Full Service is built for dedicated caterers, event venues and groups with three or more locations.</p>
+      </div>
+      <div class="faq__item">
+        <h3 class="faq__q">Does it answer in Spanish?</h3>
+        <p class="faq__a">Yes. It replies in English or Spanish, matching the person who wrote in.</p>
+      </div>
+      <div class="faq__item">
+        <h3 class="faq__q">How much does catering inquiry automation cost?</h3>
+        <p class="faq__a">$1,500 to set up and $500 a month. Add Full House catering search pages and setup is $3,000 for both.</p>
+      </div>
+      <div class="faq__item">
+        <h3 class="faq__q">How fast can it go live?</h3>
+        <p class="faq__a">About ten days, and about an hour of your time. If it isn't live in 14 days, your first month is free.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="close" id="order">
+  <div class="wrap">
+    <p class="eyebrow">Become a Client</p>
+    <h2 class="display">One 15-minute call, then a fixed price.</h2>
+    <p>Bring your catering price list. You'll leave the call with a fixed price and a date the desk goes live. For the rest of what we build for restaurants, see <a href="/ai-agents-for-restaurants/">AI agents for restaurants</a>.</p>
+    <a class="btn" href="/#contact">Become a Client</a>
+    <p class="fine">Or email <a href="mailto:franco@stanzistudio.com?subject=Catering%20inquiry%20desk">franco@stanzistudio.com</a> &middot; <a href="/menu/">See the menu and prices</a> &middot; Based in Miami. Built on systems.</p>
+  </div>
+</section>
+
+<footer>
+  <a href="/" style="text-decoration:none">Stanzi Studio &middot; Miami</a>
+  <span>Building the thing that builds the thing.</span>
+</footer>
+
+<script>
+  (function(){
+    var els=document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window)||window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      els.forEach(function(e){e.classList.add('is-in')});return;
+    }
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){if(en.isIntersecting){en.target.classList.add('is-in');io.unobserve(en.target)}});
+    },{threshold:.12});
+    els.forEach(function(e){io.observe(e)});
+  })();
+</script>
+</body>
+</html>
