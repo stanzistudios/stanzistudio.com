@@ -1,55 +1,69 @@
 # Stanzi Studio
 
-> Miami venture studio. We build businesses, then build the AI systems and
-> operations that run them. Ventures are created and operated in-house;
-> consulting is for people who actually operate.
+> Stanzi Studio is a Miami AI automation agency for restaurants, caterers and event venues. We build AI agents that answer catering inquiries, reply to reviews, read vendor invoices and send the owner yesterday's numbers by 7am. Every agent works inside written rules the owner approves; quotes, money, contracts, angry guests and anything legal always go to the owner. Prices are fixed and published. Setup takes about ten days.
 
-Founded by Franco Stanzione. Fourteen years opening, operating and fixing
-hospitality businesses — then automating them. We don't advise, we operate:
-we architect the business and the systems that run it, and stay on the floor
-until the machine runs without us.
+Stanzi Studio is also a venture studio. It builds and operates its own businesses, including a two-location restaurant group in Miami and Opstable, a restaurant workforce SaaS. Founded by Franco Stanzione, a systems and operations architect with fourteen years opening, operating and fixing hospitality businesses. "We don't advise. We operate."
 
-## What we do
+## Services for restaurants
 
-- **Ventures** — we create and launch businesses from zero, in-house.
-- **Systems & Operations** — we architect the machine so the business runs without us.
-- **AI & Automation** — we put agents and automations on the floor, so the operation runs itself and reports back.
-- **Brand & Growth** — we build demand and turn operations into leverage.
-- **Software** — we ship the tools that run the operation.
+- [AI agents for restaurants](https://stanzistudio.com/ai-agents-for-restaurants/): five agents (catering inquiry desk, review desk, morning P&L, invoice desk, and one built to order), who approves what, prices, timeline and how to leave.
+- [Catering inquiry automation](https://stanzistudio.com/catering-inquiry-automation/): the desk that answers every catering lead in minutes, drafts the quote from the caterer's own price list for the owner to approve, follows up and books the event on the calendar.
+- [The Menu (pricing)](https://stanzistudio.com/menu/): every service, what's in it, and its fixed price.
+- [Catering case study](https://stanzistudio.com/catering/): monthly catering sales at our own restaurant up more than 1,800% from June to September 2026, from 15 search-matched catering pages, structured data and same-day follow-up.
+
+## Prices (as published on /menu/)
+
+- The Pass (catering inquiry desk): $1,500 setup + $500/mo.
+- Front of House (review replies): $750 setup + $200/mo per location.
+- The Close (daily P&L by 7am): $2,500 setup + $400/mo per location.
+- Full House (catering search pages): $1,500 setup + $750/mo.
+- Word of Mouth (AI search visibility): $2,000 setup + $1,000/mo.
+- The Walk-In (vendor invoice system): $5,000 build + $500/mo per location.
+- Off the Menu (one custom automation): from $2,500, quoted after a 15-min call.
+- Full Service (groups, dedicated caterers, event venues): $7,500 setup + $2,000/mo.
+- Bundles: The Pass + Full House, $3,000 setup for both. Word of Mouth + Full House, $1,500/mo for both.
+- Month to month after setup, 30 days' notice to leave, no cancellation fee. The client owns every account and keeps everything built.
+- The Pass: live in 14 days or the first month is free.
+
+## How approval works
+
+- Agents handle first replies, the questions a quote needs (date, headcount, budget), follow-ups on quiet leads, 4- and 5-star review replies, invoice filing and the morning numbers.
+- Always sent to the owner: quotes and prices (sent only after approval), refunds, discounts, deposits and payment terms, contracts, complaints and reviews at 3 stars or under, and anything legal or press-related.
+- Works with Square and Toast, the owner's own email address, Google Sheets, and next to MarginEdge or xtraCHEF. English and Spanish.
+
+## Proof
+
+- Opstable: Stanzi Studio's own restaurant workforce SaaS (https://opstable.io/), with 11 tools live on its AI gateway so an operator's assistant can read the business directly.
+- 5 automations running invoicing, tax and reporting across two restaurants, unattended.
+- 6x weekly revenue at one location, inside twelve months of systems work.
+- 14 years opening, operating and fixing hospitality businesses.
 
 ## In-house ventures
 
-- **Stanzione Italian Specialties** — two locations plus catering; named among the top 50 pizzerias in the US.
-- **Opstable** — restaurant workforce SaaS, with an AI gateway an operator's assistant can call.
-- **Hey Chef** — voice AI for the kitchen line (in beta).
-- **FittrAI** — AI coaching, built in-house.
+- Stanzione Italian Specialties: two locations plus catering; named among the top 50 pizzerias in the US.
+- Opstable: restaurant workforce SaaS, with an AI gateway an operator's assistant can call.
+- Hey Chef: voice AI for the kitchen line (in beta).
+- FittrAI: AI coaching, built in-house.
 
 Track record before the studio: Stanzione '87, Ash Pizza, Thoroughbred Pizza.
 
 ## Selected consulting work
 
-- **Barrio Pizza** — concept, brand and construction through team training and operational systems; scaled to multi-unit, founder exited.
-- **Brightline** — hospitality operating partnership; venue operations inside a national rail brand.
-- **The Foundry Miami** — menu and recipe development, vendor procurement, training.
-- **Kiki Hospitality** — concept creation.
-- **Sunshine Coffee** — staffing, logistics, permitting.
-- **Events & Activations** — Art Basel, Hong Kong Tourism Board, SCAD, Emilio Pucci, Mutto Furniture, Miami Beach Botanical Garden.
-
-## Proof
-
-- 6x weekly revenue at one location, inside twelve months of systems work.
-- 11 tools live on our own AI gateway, so an operator's assistant can read the business directly.
-- 5 automations running invoicing, tax and reporting across two restaurants, unattended.
-- 14 years opening, operating and fixing hospitality businesses.
-
-## Case study
-
-- **Catering at Stanzione (our own restaurant)** — monthly catering sales up more than 1,800% from June to September 2026, from 15 search-matched catering pages, structured data and same-day follow-up: https://stanzistudio.com/catering/
-- **The Menu** — fixed-price services for restaurants that cater: catering search pages, a catering inbox agent, review replies, a daily P&L, AI-search visibility and custom automations: https://stanzistudio.com/menu/
+- Barrio Pizza: concept, brand and construction through team training and operational systems; scaled to multi-unit, founder exited.
+- Brightline: hospitality operating partnership; venue operations inside a national rail brand.
+- The Foundry Miami: menu and recipe development, vendor procurement, training.
+- Kiki Hospitality: concept creation.
+- Sunshine Coffee: staffing, logistics, permitting.
+- Events and activations: Art Basel, Hong Kong Tourism Board, SCAD, Emilio Pucci, Mutto Furniture, Miami Beach Botanical Garden.
 
 ## Contact
 
 - Site: https://stanzistudio.com/
+- Become a client: https://stanzistudio.com/#contact (a 15-minute call, then a fixed price)
 - New business: franco@stanzistudio.com
 - Instagram / X: @mrstanzione
-- Based in Miami, FL. Serving the United States. English and Spanish.
+- Based in Miami, FL. Serving Miami-Dade, Broward and South Florida, and restaurants across the United States. English and Spanish.
+
+## Optional
+
+- [Full text of every page](https://stanzistudio.com/llms-full.txt)

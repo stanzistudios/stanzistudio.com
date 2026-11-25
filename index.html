@@ -61,7 +61,10 @@
    ]
   },
   {
-   "@type": "ProfessionalService",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
    "@id": "https://stanzistudio.com/#org",
    "name": "Stanzi Studio",
    "url": "https://stanzistudio.com/",
@@ -89,6 +92,18 @@
      "name": "Miami"
     },
     {
+     "@type": "AdministrativeArea",
+     "name": "Miami-Dade County, FL"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Broward County, FL"
+    },
+    {
+     "@type": "Place",
+     "name": "South Florida"
+    },
+    {
      "@type": "State",
      "name": "Florida"
     },
@@ -103,6 +118,8 @@
     "Systems architecture",
     "AI automation",
     "AI agents",
+    "AI agents for restaurants",
+    "Catering inquiry automation",
     "Workflow automation",
     "Hospitality consulting",
     "Brand and growth",
@@ -131,7 +148,8 @@
      "itemOffered": {
       "@type": "Service",
       "name": "AI & Automation",
-      "description": "We put agents and automations on the floor, so the operation runs itself and reports back."
+      "description": "We put agents and automations on the floor, so the operation runs itself and reports back.",
+      "url": "https://stanzistudio.com/ai-agents-for-restaurants/"
      }
     },
     {
@@ -604,6 +622,9 @@
     .prices__note { margin-top: 1.25rem; font-family: var(--font-body); font-size: 0.85rem; color: var(--ink-35); max-width: 40rem; }
     .prices .case__more { color: var(--ink-70); text-decoration: none; }
     .prices .case__more:hover { color: var(--ink); background-size: 0% 1px; }
+    .prices__links { margin-top: 1.25rem; font-family: var(--font-sub); font-weight: 300; font-size: 0.8rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-35); }
+    .prices__links a { color: var(--ink-55); text-decoration: none; border-bottom: 1px solid var(--line); transition: color 0.3s; }
+    .prices__links a:hover { color: var(--ink); }
     @media (max-width: 640px) {
       .prices__row { grid-template-columns: 1fr auto; gap: 0.3rem 1rem; }
       .prices__what { grid-column: 1 / -1; grid-row: 2; }
@@ -1098,6 +1119,7 @@
         </ul>
         <p class="prices__note">Prices are per location, plus a one-time setup from $750. Full Service covers the whole group. Month to month, with 30 days' notice to leave.</p>
         <a class="case__more" href="/menu/">See the full menu</a>
+        <p class="prices__links">For restaurants: <a href="/ai-agents-for-restaurants/">AI agents for restaurants</a> &middot; <a href="/catering-inquiry-automation/">Catering inquiry automation</a></p>
       </div>
     </section>
 

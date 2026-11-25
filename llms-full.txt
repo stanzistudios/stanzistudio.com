@@ -1,0 +1,960 @@
+# Stanzi Studio: full text of every page
+
+Source: https://stanzistudio.com/ . Generated 2026-11-25 from the published HTML. Short summary: https://stanzistudio.com/llms.txt
+
+---
+
+URL: https://stanzistudio.com/
+Title: Stanzi Studio, Miami Venture Studio & AI Automation
+
+# Stanzi Studio
+
+Systems Architecture, Miami
+
+Scroll
+
+## Building the thing that builds the thing.
+
+Ventures built and managed in-house. Consulting for people who actually operate.
+
+What We Do
+
+## We build businesses, then build the systems that run them.
+
+### Ventures
+
+We create and launch businesses from zero, in-house.
+
+### Systems & Operations
+
+We architect the machine so the business runs without us.
+
+### AI & Automation
+
+We put agents and automations on the floor, so the operation runs itself and reports back.
+
+### Brand & Growth
+
+We build demand and turn operations into leverage.
+
+### Software
+
+We ship the tools that run the operation, Opstable, our restaurant workforce SaaS.
+
+- 6× Revenue Weekly, at one location, inside twelve months of systems work.
+
+- 11 Tools Live on our own AI gateway, so an operator's assistant can read the business directly.
+
+- 5 Automations Running invoicing, tax and reporting across two restaurants, unattended.
+
+- 14 Years Opening, operating and fixing hospitality businesses, before we automated any of it.
+
+- Stanzione 87
+
+- Ash Pizza
+
+- Thoroughbred
+
+- Stanzione
+
+- Opstable
+
+- Hey Chef
+
+- FittrAI
+
+- Barrio Pizza
+
+- Brightline
+
+- Kiki Hospitality
+
+- Emilio Pucci
+
+- SCAD
+
+- Art Basel
+
+- Hong Kong Tourism Board
+
+- The Foundry Miami
+
+- Sunshine Coffee
+
+- Mutto
+
+- Miami Beach Botanical Garden
+
+How We Work
+
+## We don't advise. We operate.
+
+We architect the business and the systems that run it, then stay on the floor until the machine runs without us. Proven across hospitality, software, and live events.
+
+In-House Ventures
+
+Built, owned and operated by Stanzi Studio
+
+### Stanzione Italian Specialties
+
+Two locations plus catering, named among the top 50 pizzerias in the US
+
+### Opstable
+
+Restaurant workforce SaaS, with an AI gateway operators' assistants can call
+
+### Hey Chef
+
+Voice AI for the kitchen line, in beta
+
+### FittrAI
+
+AI coaching, built in-house
+
+Track Record
+
+Stanzione ’87 · Ash Pizza · Thoroughbred Pizza
+
+Opened, awarded and operated before Stanzi Studio existed, an award-winning Neapolitan pizzeria run for eleven years, and a concept grown from one location to two in under three years.
+
+Selected Work
+
+## Operators trust us to build.
+
+- Barrio Pizza Concept, brand and construction through team training and operational systems, scaled to multi-unit, founder exited.
+
+- Brightline Hospitality operating partnership, venue operations inside a national rail brand.
+
+- The Foundry Miami Menu and recipe development, vendor procurement, and the training that made it repeatable.
+
+- Kiki Hospitality Concept creation.
+
+- Sunshine Coffee Staffing, logistics and permitting.
+
+- Events & Activations Art Basel · Hong Kong Tourism Board · SCAD · Emilio Pucci · Mutto Furniture · Miami Beach Botanical Garden, event logistics, vendor and equipment management, art direction, and the on-site operation itself.
+
+Case Study · Catering
+
+### Catering up more than 1,800% in four months.
+
+Catering at our own restaurant, June to September 2026. Five changes, made in order, with the results and the one thing we'd skip next time.
+
+Read the case study
+
+The Menu · For restaurants that cater
+
+### Eight services, fixed prices.
+
+- Full HouseCatering search pages that rank$750/mo
+
+- The PassEvery catering inquiry answered in minutes$500/mo
+
+- Front of HouseEvery review answered, the bad ones escalated$200/mo
+
+- The CloseYesterday's P&L in your inbox by 7am$400/mo
+
+- Word of MouthRecommended by ChatGPT, Gemini and Perplexity$1,000/mo
+
+- Off the MenuOne automation, quoted after a 15-min callFrom $2,500
+
+- The Walk-InEvery vendor invoice, built into one system$5,000 build
+
+- Full ServiceAll of it, for groups and caterers$2,000/mo
+
+Prices are per location, plus a one-time setup from $750. Full Service covers the whole group. Month to month, with 30 days' notice to leave.
+
+See the full menu
+
+For restaurants: AI agents for restaurants · Catering inquiry automation
+
+## Based in Miami. Built on systems.
+
+Founded by Franco Stanzione. Fourteen years turning messy operations into machines, concepts launched, teams built, systems that outlast the founder. We design the system, open the doors, and hand back something that runs itself.
+
+Join Our Talent Pool
+
+## We build with interesting people.
+
+Engineers, designers, operators, marketers, builders, if you make things run, we want to know you.
+
+Introduce yourself →
+
+Become a Client
+
+## Let's make your idea reality.
+
+Or email franco@stanzistudio.com
+
+---
+
+URL: https://stanzistudio.com/ai-agents-for-restaurants/
+Title: AI Agents for Restaurants in Miami | Stanzi Studio
+
+AI automation agency · Miami
+
+# Five AI agents for restaurants. Every one answers to the owner.
+
+Stanzi Studio is a Miami AI automation agency for restaurants, caterers and venues. We build AI agents that answer catering inquiries, reply to reviews, read vendor invoices and email the owner yesterday's numbers by 7am. Each one works inside rules you approve. Money, contracts, angry guests and anything legal always go to you. Setup takes about ten days.
+
+We don't advise. We operate.
+
+What the agents do
+
+## Five agents, one job each.
+
+They started as fixes for restaurants we run ourselves. Order one, or stack a few. Every price below is fixed and published on our menu.
+
+01
+
+### Catering inquiry desk
+
+$1,500 + $500/mo · The Pass · setup + monthly
+
+Every catering inquiry answered in minutes, and followed up until it books.
+
+It replies from your own email address, day or night, in English or Spanish. It asks for the date, the headcount and the budget, drafts the quote from your price list and sends it to you to approve. Leads that go quiet get a follow-up. Booked events land on your calendar.
+
+How the catering desk works
+
+02
+
+### Review desk
+
+$750 + $200/mo · Front of House · per location
+
+Every review answered. The bad ones go to a person.
+
+Four- and five-star reviews get a reply in your voice and in the guest's language, posted on their own. Anything at three stars or under never posts by itself. It goes to that location's manager with a draft reply, the same day.
+
+03
+
+### Morning numbers
+
+$2,500 + $400/mo · The Close · per location
+
+Yesterday's P&L in your inbox by 7am.
+
+It pulls sales from Square or Toast every night, reads vendor invoices from a photo and lays out labor. You get one page each morning with yesterday and month to date, plus an alert when food or labor cost runs hot. It lives in a Google Sheet you own.
+
+04
+
+### Invoice desk
+
+$5,000 + $500/mo · The Walk-In · build + per location
+
+Every vendor invoice, read line by line.
+
+Vendors email one address, and your team texts a photo of anything on paper. Every line gets filed by item, so you can see what chicken or boxes cost you this week and every week before it. Once a month it checks each vendor's statement. Price changes and missing credits come to you with the invoice attached. Text it a question and it answers from your own invoices.
+
+05
+
+### Built to order
+
+From $2,500 · Off the Menu · quoted after a 15-min call
+
+One agent for the job that eats your week.
+
+A support inbox that answers the routine questions and passes the rest to a person. A sales inbox that replies to new leads and books the call on your calendar. Prep lists built from your sales. Tell us the job on a 15-minute call. We quote it fixed, build it in ten days and hand it over documented.
+
+Who approves what
+
+## Two lists decide what an agent can do alone.
+
+Before anything goes live, we write the rules down in plain English and you approve them along with the copy. The agent works inside them. Everything else comes to you.
+
+The agent handles
+
+- First replies. Any hour, in English or Spanish, from your own address.
+
+- The questions a quote needs. Date, headcount and budget, asked up front.
+
+- Follow-ups. Every lead that goes quiet gets a nudge.
+
+- Good reviews. Four and five stars get a reply, posted on its own.
+
+- The paperwork. Invoices filed, statements checked, the 7am numbers sent.
+
+Always comes to you
+
+- Quotes and prices. Drafted for you, sent only after you approve them.
+
+- Money. Refunds, discounts, deposits and payment terms.
+
+- Contracts. An agent never signs, accepts or changes one.
+
+- Angry guests. Complaints and reviews at three stars or under go to a person, the same day.
+
+- Anything legal. A lawyer, a reporter or a health complaint goes straight to the owner.
+
+What it costs
+
+## Six prices, fixed and published.
+
+Agent | Setup | Monthly
+
+Catering inquiry desk · The Pass | $1,500 | $500
+
+Review desk · Front of House · per location | $750 | $200
+
+Morning numbers · The Close · per location | $2,500 | $400
+
+Invoice desk · The Walk-In · per location | $5,000 | $500
+
+Built to order · Off the Menu · quoted after a 15-min call | From $2,500 | Quoted
+
+Full Service · Every location in the group | $7,500 | $2,000
+
+After setup it's month to month, with 30 days' notice to leave. The full list, with what's inside each service, is on the menu page.
+
+How long it takes
+
+## Ten days from the call to running.
+
+01
+
+### 15 minutes
+
+A short call. We pick the agent that fits. Anything on the menu gets a fixed price before we hang up.
+
+02
+
+### Ten days
+
+We build it. You send logins and approve the rules and the copy. That's about an hour of your time.
+
+03
+
+### Live
+
+The agent starts on real inquiries. The catering desk is live in 14 days or your first month is free.
+
+04
+
+### Every month
+
+It runs. You get a short report. Cancel with 30 days' notice whenever you want.
+
+Proof
+
+## Three numbers from systems we run ourselves.
+
+We ship software and we operate restaurants. Opstable, our restaurant workforce SaaS, is the software proof. The two restaurants we run in Miami are where our automations go to work first.
+
+11
+
+Tools live on Opstable's AI gateway, so an operator's assistant can read the business directly.
+
+Opstable · live
+
+5
+
+Automations running invoicing, tax and reporting across our two restaurants, unattended.
+
+Our own restaurants
+
++1,800%
+
+Monthly catering sales at our own restaurant, June to September 2026, from search pages and same-day follow-up.
+
+Catering POS · The case study
+
+What this does not include
+
+## Five things we don't sell.
+
+- A chatbot that guesses. Answers come from your menu, your price list and the rules you approved. If it doesn't know, it asks you.
+
+- Ad spend. We don't run or mark up your ads.
+
+- A new website. We work inside the site and the inbox you already have.
+
+- New software for your staff to learn. Everything lands in email, Google Sheets or the tools you already use.
+
+- Long contracts. Setup is paid once. Monthly is month to month.
+
+The exit
+
+## In plain English, and easy to leave.
+
+- You own every account. Your inbox, your Google, your sheets. We get admin access, never ownership.
+
+- You keep everything we built. If you cancel, the sheets, the rules and the pages stay yours.
+
+- 30 days' notice. No cancellation fee and no awkward call.
+
+Questions
+
+## Nine things owners ask first.
+
+### What does an AI agent actually do in a restaurant?
+
+One job, start to finish, inside rules you set. Ours answer catering inquiries, reply to reviews, file vendor invoices and send the morning numbers. They do the typing and the chasing. Anything with money, a contract or an upset guest comes to you.
+
+### How much do AI agents for restaurants cost?
+
+Our prices are fixed and published. The review desk is $750 to set up and $200 a month per location. The catering inquiry desk is $1,500 plus $500 a month. Full Service for a whole group is $7,500 plus $2,000 a month. Custom builds start at $2,500.
+
+### Will an agent send a quote or a price without me?
+
+No. Quotes are drafted from your price list and wait for your approval. Refunds, discounts, deposits and contracts always go to you.
+
+### How long does setup take?
+
+About ten days, and about an hour of your time. The catering desk comes with a promise: live in 14 days or your first month is free.
+
+### Which systems does it work with?
+
+Square and Toast for sales, your own email address for inquiries, and Google Sheets for anything you want to read. The invoice desk runs next to MarginEdge or xtraCHEF, or on its own.
+
+### Does it reply in Spanish?
+
+Yes. Replies go out in English or Spanish, matching the person who wrote in.
+
+### Do you only work with Miami restaurants?
+
+We're based in Miami and work across Miami-Dade, Broward and the rest of South Florida. We take on restaurants elsewhere in the US as well.
+
+### How do I leave?
+
+Give 30 days' notice. There's no cancellation fee, and everything we built stays yours: the accounts, the sheets and the rules.
+
+### Who builds it?
+
+A small Miami team that runs the same systems in our own restaurants and built Opstable, our restaurant workforce software. You get one person to text, not a ticket queue.
+
+Become a Client
+
+## One 15-minute call, then a fixed price.
+
+Tell us the job you'd hand off first. We'll tell you which agent fits, what it costs and when it can go live.
+
+Become a Client
+
+Or email franco@stanzistudio.com · See the menu and prices · Based in Miami. Built on systems.
+
+---
+
+URL: https://stanzistudio.com/catering-inquiry-automation/
+Title: Catering Inquiry Automation for Caterers | Stanzi Studio
+
+Catering inquiry automation · For caterers, restaurants and venues
+
+# One desk answers every catering inquiry in minutes.
+
+Catering inquiry automation is an AI agent that answers every catering lead from your own inbox within minutes. It asks for the date, headcount and budget, drafts the quote from your price list for you to approve, follows up on quiet leads and puts booked events on your calendar. Stanzi Studio sets it up in about ten days.
+
+We don't advise. We operate.
+
+The problem
+
+## One rule of catering: the job goes to whoever answers first.
+
+Someone planning an office lunch or a rehearsal dinner sends the same request to several places. They book whoever comes back first with real answers. At our own restaurant, the leads we closed were the ones that got a real reply the same day.
+
+A form that sits in a shared inbox over the weekend is a job handed to someone else.
+
+How it works
+
+## Five steps from inquiry to calendar.
+
+- 01Reply in minutes. From your own email address, in English or Spanish, at 11pm on a Sunday the same as at noon on a Tuesday.
+
+- 02Ask what the quote needs. Date, headcount and budget up front, plus anything your prices depend on, like a delivery address or pickup.
+
+- 03Draft the quote from your price list. Your packages, your per-person prices, your minimums. If a request doesn't fit the list, the desk doesn't guess. It holds the lead for you.
+
+- 04Wait for your approval. The draft comes to you first. Change what you want, approve it, and it goes out.
+
+- 05Follow up, then book. Leads that go quiet get a follow-up. When a job books, it lands on your calendar.
+
+What comes to you
+
+## Four kinds of inquiry always come to you.
+
+The desk does the typing and the chasing. Judgment calls stay with the owner.
+
+- Every quote. Drafted for you and sent only after you approve it.
+
+- Anything off your price list. A custom menu, a date you're closed, or a headcount above the limit you set.
+
+- Money. Deposits, refunds, discounts and payment terms.
+
+- Complaints, contracts and anything legal. An unhappy client, a contract to sign, or anyone mentioning a lawyer or the press.
+
+Setup
+
+## Three things you give us on day one.
+
+- 01Your catering price list. A PDF is fine. We turn it into rules the desk can read, and you check them before anything goes live.
+
+- 02Access to the inbox your inquiries land in. You give us a login and take it back whenever you like. Your website and your form stay where they are.
+
+- 03Your rules. How much notice you need, the biggest event you'll take without a call, where you deliver, and what you always want to see first.
+
+What it costs
+
+## $1,500 to set up. $500 a month.
+
+That's The Pass on our menu. After setup it's month to month, with 30 days' notice to leave. It's live in 14 days or your first month is free.
+
+- $3,000 setupWith Full House. Catering search pages that bring in more inquiries for the desk to answer. Setup for both is $3,000.
+
+- $7,500 + $2,000/moFull Service. For dedicated caterers, event venues and groups with three or more locations. The catering pipeline runs across every location, with one screen that shows all of it.
+
+Where it comes from
+
+## Built for our own restaurant's catering first.
+
+We operate a two-location pizzeria in Miami. Its catering inquiries get a reply drafted within hours, quiet leads get a nudge and paid jobs land on the calendar on their own. Monthly catering sales there grew more than 1,800% from June to September 2026. Read the case study.
+
+One honest note from that work: the desk doesn't create demand. Search pages did most of that lift. If nobody finds you, there's nothing to answer, which is why the desk pairs well with Full House.
+
+What this does not include
+
+## Four things the desk won't do.
+
+- Take payment. Deposits and invoices stay with you and your POS.
+
+- Make up a dish or a price. It only quotes what's on your list.
+
+- Replace your website or your form. It works from the inbox you already have.
+
+- Lock you in. Setup is paid once. Monthly is month to month.
+
+The exit
+
+## In plain English, and easy to leave.
+
+- You own the inbox and the calendar. We get access, never ownership.
+
+- You keep the rules we wrote. Your price list, in a form any person or tool can use.
+
+- 30 days' notice. No cancellation fee and no awkward call.
+
+Questions
+
+## Seven things caterers ask first.
+
+### What is catering inquiry automation?
+
+An agent that handles the first part of every catering lead for you: the reply, the questions, the draft quote and the follow-up. You approve the quote. It does the typing and the chasing.
+
+### Will it send a quote without my approval?
+
+No. Every quote and price comes to you first. Nothing with a dollar sign goes out until you approve it.
+
+### Can it quote from my own price list?
+
+Yes. We load your packages, per-person prices and minimums. If a request doesn't fit the list, the desk holds it for you instead of guessing.
+
+### Does it work for caterers and event venues, or only restaurants?
+
+Both. Any business that gets catering inquiries by email or web form can use it. Full Service is built for dedicated caterers, event venues and groups with three or more locations.
+
+### Does it answer in Spanish?
+
+Yes. It replies in English or Spanish, matching the person who wrote in.
+
+### How much does catering inquiry automation cost?
+
+$1,500 to set up and $500 a month. Add Full House catering search pages and setup is $3,000 for both.
+
+### How fast can it go live?
+
+About ten days, and about an hour of your time. If it isn't live in 14 days, your first month is free.
+
+Become a Client
+
+## One 15-minute call, then a fixed price.
+
+Bring your catering price list. You'll leave the call with a fixed price and a date the desk goes live. For the rest of what we build for restaurants, see AI agents for restaurants.
+
+Become a Client
+
+Or email franco@stanzistudio.com · See the menu and prices · Based in Miami. Built on systems.
+
+---
+
+URL: https://stanzistudio.com/menu/
+Title: Catering SEO & Restaurant Automation Pricing, Stanzi Studio
+
+The Menu · For restaurants that cater
+
+# Seven things on the menu. Every one starts in our own restaurants.
+
+We operate two pizzerias in Miami. The systems below started there. They bring in the catering inquiries, answer the reviews and close out the day's numbers. Nothing on this page was built for a pitch.
+
+We don't advise. We operate.
+
+Tested at home
+
+## Three numbers from our own restaurants.
+
+Our catering pages went live this summer. Here's what happened next, with the source for each number.
+
+11,810
+
+Times our 15 catering pages showed up in Google in one quarter, for 164 clicks.
+
+Google Search Console · Jul–Sep 2026
+
++1,800%
+
+Monthly catering sales, June to September. Search pages did most of it, plus a small ad test.
+
+Catering POS · Sep vs. Jun · The case study
+
+Every 2 hrs
+
+The review agent checks for new reviews every two hours, 8am to 10pm. Good ones get answered automatically and bad ones go to a person.
+
+Live since Oct 1, 2026
+
+The Menu
+
+## Seven plates and one tasting menu.
+
+Order one or stack a few. Every price is fixed and setup takes about ten days. After that it's month to month.
+
+House plates
+
+01
+
+### Full House
+
+$1,500 + $750/mo · Setup + monthly
+
+Catering search. When someone near you searches "catering", you show up.
+
+Most restaurants have one catering page with a PDF on it, and Google can't read a PDF. We build the pages that rank: one per event type and one per neighborhood you deliver to, with your menu in real text.
+
+- 6–8 catering pages: weddings, offices, parties, neighborhoods
+
+- Catering menu rebuilt as text Google can read
+
+- Structured data so Google and AI assistants know what you cater
+
+- Google Business Profile catering cleanup
+
+- An inquiry form that asks the headcount
+
+- 2 new pages a month and a monthly search report
+
+Most ordered
+
+02
+
+### The Close
+
+$2,500 + $400/mo · Per location
+
+Daily P&L. Yesterday's numbers in your inbox by 7am.
+
+Most owners see food and labor cost once a month, when it's too late to fix. The Close pulls sales from your POS, reads your vendor invoices from a photo and lays out labor. Then it emails you one page every morning. You don't log in to new software. It lives in a Google Sheet you own.
+
+- Sales pulled from Square or Toast nightly
+
+- Snap an invoice, it lands on the right line
+
+- Food, labor and prime cost as a percent of sales
+
+- A 7am email with yesterday and month to date
+
+- An alert when labor or food cost runs hot
+
+- Month-end rollover done for you
+
+03
+
+### Front of House
+
+$750 + $200/mo · Per location
+
+Review replies. Every review answered, and the bad ones escalated.
+
+Good reviews get a reply in your voice and in the guest's language, posted automatically. Anything 3 stars or under never auto-posts. It goes to the manager of that location with a draft reply, the same day. Included free with Full House from month two.
+
+- 4–5 star replies posted on their own
+
+- English and Spanish
+
+- 1–3 star reviews escalated to a person
+
+- A monthly summary of what guests keep mentioning
+
+04
+
+### Off the Menu
+
+From $2,500 · Quoted after a 15-min call
+
+One automation, built to order. The task you hate doing every week.
+
+Catering follow-ups, a weekly sales report, invoice filing, prep lists from your sales. Tell us the job on a 15-minute call. We quote it fixed, build it in ten days and hand it over documented.
+
+05
+
+### Word of Mouth
+
+$2,000 + $1,000/mo · Setup + monthly
+
+AI search. When someone asks ChatGPT or Google "best Cuban in Miami," your name comes up.
+
+People don't just search anymore. They ask an assistant, and it names two or three places. We make sure it has what it needs to name you: clear facts about your restaurant, answers to the questions guests ask, and the same details everywhere it looks. Every month we ask ChatGPT, Gemini and Perplexity the same 20 questions and show you who they recommend.
+
+- Business and FAQ markup AI assistants can read
+
+- Answer-first FAQ pages in English and Spanish
+
+- Google profile and review sites cleaned up and matched
+
+- A monthly AI answer report: you vs. the competition
+
+With Full House: $1,500/mo for both
+
+06
+
+### The Pass
+
+$1,500 + $500/mo · Setup + monthly
+
+Catering inbox. Every inquiry answered in minutes and followed up until it books.
+
+Most catering leads go to whoever answers first. The Pass replies to every inquiry from your own inbox within minutes, day or night. It asks for the date, the headcount and the budget, then follows up with the ones that go quiet. Quotes and prices never go out on their own. They come to you to approve first, and every booked event lands on your calendar.
+
+- A reply in minutes, from your own email address
+
+- Asks for date, headcount and budget up front
+
+- Follow-ups on every lead that goes quiet
+
+- English and Spanish
+
+- Quotes drafted for you to approve
+
+- Booked events added to your calendar
+
+With Full House: $3,000 setup for both
+
+07
+
+### The Walk-In
+
+$5,000 + $500/mo · Build + per location
+
+Your vendor invoices, built into one system. Every delivery, every line, every price.
+
+We build you a receiving desk. Every vendor emails invoices to one address, and your team texts a photo of anything on paper. Each invoice is read line by line and filed by item, so you can see what chicken, cheese and boxes cost you this week and every week before it. Once a month it is matched to each vendor's statement, and any price change or missing credit comes to you with the invoice attached. Text it a question and it answers from your own invoices. It runs next to MarginEdge or xtraCHEF, or on its own.
+
+- One invoice address for every vendor
+
+- Paper invoices sent as a text photo
+
+- Every line saved: item, quantity, unit price
+
+- Matched to vendor statements every month
+
+- Price changes and missing credits flagged, invoice attached
+
+- Ask it by text, it answers from your invoices
+
+Each added location: $1,500 build
+
+Tasting menu · For groups and caterers
+
+08
+
+### Full Service
+
+$7,500 + $2,000/mo · Setup + monthly
+
+Our core plates across every location, with the catering pipeline run for you.
+
+For groups with three or more locations, dedicated caterers and event venues. Inquiries get an answer in minutes, quotes are drafted, quiet leads get nudged, and every booked job lands on the calendar. One screen shows you catering across the group.
+
+- Full House, The Close, Front of House and The Pass for every location
+
+- A one-screen catering dashboard
+
+- 4 new pages a month
+
+- A monthly call with Franco
+
+How an order goes out
+
+## Four steps from first call to running.
+
+01
+
+### The snapshot
+
+No charge. A one-page look at where you show up for catering searches today, and where you don't.
+
+02
+
+### 15 minutes
+
+A short call. We pick what you need from the menu, and you get a fixed price before we hang up.
+
+03
+
+### Ten days
+
+We build it. You send us logins and approve the copy. That's about an hour of your time.
+
+04
+
+### Every month
+
+It runs. You get a short report. Cancel with 30 days' notice whenever you want.
+
+What this does not include
+
+## Six things we won't sell you.
+
+- Ad spend. We don't run or mark up your ads.
+
+- Social media posting. No content calendars and no influencer packages.
+
+- A new website. We build inside the site you already have, whether that's Wix, Webflow, WordPress or Squarespace.
+
+- New software for your staff to learn. Everything lands in email, Google Sheets or the tools you already use.
+
+- Rankings we can't promise. Nobody controls Google. We show you the search report every month instead.
+
+- Long contracts. Setup is paid once. Monthly is month to month.
+
+The exit
+
+## In plain English, and easy to leave.
+
+- You own every account. Your Google, your site, your sheets. We get admin access, never ownership.
+
+- You keep everything we built. If you cancel, the pages stay up and the sheets stay yours.
+
+- 30 days' notice. No cancellation fee and no awkward call.
+
+Questions
+
+## Five things owners ask first.
+
+How long until catering search brings in inquiries?
+
+Honestly, two to four months for pages to rank. Ours started moving in about six weeks. The review replies and The Close work from the first day.
+
+Which POS do you work with?
+
+Square and Toast today. If you're on something else, ask. Most POS systems export what we need.
+
+Do I have to change my website?
+
+No. We add pages to the site you have. If we need a login, you give us one and take it back whenever you like.
+
+Who actually does the work?
+
+A small Miami team that runs the same systems in our own restaurants. You get one person to text, and it isn't a ticket queue.
+
+Why is it priced so low for what's in it?
+
+We built it once, for ourselves. Setting it up for you is mostly configuration, so it doesn't cost us a rebuild.
+
+Place an order
+
+## One page on where your catering search stands.
+
+Send us your restaurant's name. Within two business days you get one page showing where you show up for catering searches near you, who's taking those customers, and the first three fixes. It's yours to keep whether or not we work together.
+
+Request a snapshot
+
+Based in Miami. Built on systems.
+
+---
+
+URL: https://stanzistudio.com/catering/
+Title: Restaurant Catering SEO Case Study, Miami, Stanzi Studio
+
+Case study · Stanzione, Miami
+
+# Catering up more than 1,800% in four months.
+
+Stanzione is a two-location Neapolitan pizzeria in downtown Miami and Citadel. It's also our own restaurant. From June to September 2026, monthly catering sales grew more than 1,800%. Here's exactly what we built, in order, with the results.
+
+We don't advise. We operate.
+
+The numbers
+
+## Four months of catering sales, against June.
+
+Month (2026) | Change vs. June
+
+June | Baseline
+
+July | −21%
+
+August | +504%
+
+September | +1,838%
+
+Source: the restaurant's catering POS. July was flat. The first pages went live on July 7, and Google takes weeks to start sending traffic to new pages. Search did most of the work. A small paid-social test ran alongside it, and those leads are inside these numbers.
+
+What we built
+
+## Five changes, in the order we made them.
+
+- Jun 11An audit. We searched the way a customer would. "Pizza catering Miami" landed on the wrong page, and searches for weddings, offices and corporate events didn't land on us at all.
+
+- Jul 7Catering pages that match real searches. One hub page, plus separate pages for live pizza catering, weddings, corporate events and office lunches. Each page answers the questions people actually type.
+
+- Jul–AugOne page per neighborhood we deliver to. Brickell, Wynwood, Miami Beach, Coral Gables, Coconut Grove, Edgewater, Design District and Downtown. All live by August 10.
+
+- AugStructured data on every catering page. Restaurant and location markup plus 50+ FAQ answers, so Google and AI assistants can read exactly what we cater, where, and for how many.
+
+- Sep–OctThe follow-through. Every inquiry gets a reply drafted within hours, quiet leads get a nudge, paid jobs land on the calendar automatically, and 4- and 5-star Google reviews get answered automatically.
+
+What Google shows
+
+## Fifteen pages, 11,810 searches, 164 clicks.
+
+11,810
+
+Times our 15 catering pages appeared in Google search, July to September.
+
+Google Search Console
+
+164
+
+Clicks to those pages in the same quarter. These are people looking for catering, not for dinner.
+
+Google Search Console
+
+#3.8
+
+Average position for "mobile pizza oven catering miami". That's page one, without paid ads.
+
+Google Search Console · Jul–Sep 2026
+
+What didn't work
+
+## One thing we'd skip next time.
+
+- An automated lead engine on its own. We built one, and by itself it didn't move catering. The search pages did. Get found first, then automate the follow-up.
+
+What carries over
+
+## Three things work for any restaurant that caters.
+
+- 01Get found for the search, not the brand. People search "catering" plus an event or a neighborhood. If no page answers that, the order goes to whoever has one.
+
+- 02Make the page readable by machines. Structured data and plain answers are how Google and AI assistants decide who to show.
+
+- 03Answer fast. The leads we closed were the ones that got a real reply the same day.
+
+Your restaurant
+
+## One page on where your catering search stands.
+
+Send us your restaurant's name. Within two business days you'll get one page: where you show up when people near you search for catering, who's getting those customers instead, and the first three fixes. It's yours whether or not we work together. We take on a small number of restaurants at a time, so every engagement starts here.
+
+Request a snapshot
+
+See the menu and prices · Based in Miami. Built on systems.
